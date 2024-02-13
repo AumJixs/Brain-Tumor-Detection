@@ -5,7 +5,7 @@ import streamlit as st
 from ultralytics import YOLO
 
 # Replace the relative path to your weight file
-model_path = r'model\Brain Tumor Model.pt'
+model_path = r'Brain Tumor Model.pt'
 
 st.title("Brain Tumor Detection!")
 
